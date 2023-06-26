@@ -156,7 +156,7 @@ listClose.addEventListener("click", () => {
   listActive.close();
 });
 
-//preview setting setup
+//summary preview setting setup
 listItems.addEventListener("click", (event) => {
   const pathArray = Array.from(event.path || event.composedPath());
   let active = null;
